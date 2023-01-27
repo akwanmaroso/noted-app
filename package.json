@@ -16,7 +16,8 @@
     "framer-motion": "^7.10.3",
     "next": "^12.2.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.2.2",

@@ -1,6 +1,8 @@
+import { Box } from "@chakra-ui/react";
 import { useContext, useEffect } from "react";
 import Aside from "../core/components/Aside";
 import Main from "../core/components/Main";
+import Sidebar from "../core/components/Sidebar";
 import { NoteContext } from "../core/context/noteContext";
 import Layout from "../core/layouts/Layout";
 
@@ -14,7 +16,11 @@ function App() {
       .catch((err) => console.log(err));
   }, []);
 
-  return <Layout mainChildren={<Main />} sideChildren={<Aside />} />;
+  return (
+    <Box>
+      <Sidebar>tes</Sidebar>
+    </Box>
+  );
 }
 
 export default App;
